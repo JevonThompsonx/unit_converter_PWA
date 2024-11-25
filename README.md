@@ -1,19 +1,14 @@
-# unit_converter_PWA
-My unit converter project that can also be installed as a PWA to be used offline
+# A template for myself to use in future projects
+## React + TypeScript + Vite + Bun + Biome + React router
 
-## How to 
-- `bun run install:all` 
-    - to install all dependencies
-- `bun run dev`
-  - to start server
-      - frontend: port 3000
-      - backend: port 8080
+### How to use: 
 
-### Development 
-- Target /api/ for backend
-- Target / for frontend
-- Uses proxy to auto route to backend if link starts with "/api"
+1. `git clone https://github.com/JevonThompsonx/react_ts_template.git`
+2. bun install 
+3. Rest is all you
 
-## Personal use 
-- Most likely using vercel for launching frontend 
-- Render for launching backend
+### Some whys 
+I've been learning react, use typescript for type safety, vite fofor easy setup, bun because it goes zoom brrrr, biome is a modern linter & formatter, react router is ridiculously easy to use
+
+### Thanks
+Thanks for checking out my projects and portfolio!! Reach out with comments, opportunities or suggestions thx! 
