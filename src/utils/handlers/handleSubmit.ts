@@ -16,8 +16,7 @@ const handleSubmit = async ({ e, amount_to_convert, unit_convert_from, unit_conv
         convertedResult: `${convertedValue}${verified_unit_convert_to}`,
         original: `${verified_amount_to_convert}${verified_unit_convert_from}`
       }
-      console.log('Response from backend:');
-      console.log(conversionObject)
+      //console.log(conversionObject)
       return conversionObject;
     } catch (error) {
       console.error('Error during conversion operation:', error);

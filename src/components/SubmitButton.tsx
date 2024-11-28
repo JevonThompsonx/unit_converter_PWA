@@ -16,8 +16,8 @@ const SubmitButton = () => {
             unit_convert_to,
             unit_convert_from,
           });
-          console.log('on click')
-          console.log(submitResults)
+          //console.log('on click')
+          //console.log(submitResults)
           if (submitResults) {
             setConversionAmount({ ...submitResults })
           }
