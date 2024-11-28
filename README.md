@@ -1,14 +1,13 @@
-# A template for myself to use in future projects
-## React + TypeScript + Vite + Bun + Biome + React router
+# Unit Converter
 
-### How to use: 
+This is a unit conversion PWA project with offline functionality. 
 
-1. `git clone https://github.com/JevonThompsonx/react_ts_template.git`
-2. bun install 
-3. Rest is all you
-
-### Some whys 
-I've been learning react, use typescript for type safety, vite fofor easy setup, bun because it goes zoom brrrr, biome is a modern linter & formatter, react router is ridiculously easy to use
-
-### Thanks
-Thanks for checking out my projects and portfolio!! Reach out with comments, opportunities or suggestions thx! 
+## Tools used
+- Vercel for deployment
+- Vite for building
+  - Vite PWA plugin for adding PWA functionality
+  - Vite PWA plugin asset generation cli for generating icons
+- React using typescript
+- Bun for package management
+- [convert npm module](https://www.npmjs.com/package/convert/v/1.7.1?activeTab=dependencies) for conversion
+- tailwindcss for styling
