@@ -1,17 +1,10 @@
 //form result typing
 declare global {
-  interface ConversionObject {
-    convertedResult: string;
-    original: string;
-  }
+
   interface ConversionData {
     amount_to_convert: number;
     unit_convert_to: string;
     unit_convert_from: string;
-  }
-  interface ResultData {
-    data: ConversionData,
-    conversionObject: ConversionObject
   }
 
   interface SubmitButtonProps {
@@ -33,10 +26,9 @@ declare global {
     unit_convert_to: React.RefObject<HTMLSelectElement>;
   }
   type SelectType = 'to' | 'from'
-  interface conversionObject {
+  interface ConversionObject {
     convertedResult: string,
     original: string
   }
-  type ConversionResult = conversionObject | null
 }
 export { }

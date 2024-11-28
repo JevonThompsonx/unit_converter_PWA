@@ -19,7 +19,7 @@ export default function Home() {
   const [toValue, setToValue] = useState('');
   const [fromValue, setFromValue] = useState('');
   const [amount, setAmount] = useState('')
-  const [conversionAmount, setConversionAmount] = useState<ConversionResult>()
+  const [conversionAmount, setConversionAmount] = useState<ConversionObject>()
 
 
   const [unitTypes, setUnitTypes] = useState<Unit_Types>({ ...default_unit_types });

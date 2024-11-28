@@ -12,7 +12,7 @@ const handleSubmit = async ({ e, amount_to_convert, unit_convert_from, unit_conv
       //console.log("Converting...")
       //@ts-ignore
       const convertedValue = convert(verified_amount_to_convert, verified_unit_convert_from).to(verified_unit_convert_to)
-      const conversionObject = {
+      const conversionObject: ConversionObject = {
         convertedResult: `${convertedValue}${verified_unit_convert_to}`,
         original: `${verified_amount_to_convert}${verified_unit_convert_from}`
       }
