@@ -2,6 +2,8 @@
 
 This is a unit conversion PWA project with offline functionality. 
 
+Link: https://github.com/JevonThompsonx/unit_converter_PWA
+
 ## Tools used
 - Vercel for deployment
 - Vite for building
