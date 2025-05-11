@@ -2,7 +2,7 @@
 
 This is a unit conversion PWA project with offline functionality. 
 
-Link: https://github.com/JevonThompsonx/unit_converter_PWA
+I got the idea from [here](https://roadmap.sh/projects/unit-converter)
 
 ## Tools used
 - Vercel for deployment
